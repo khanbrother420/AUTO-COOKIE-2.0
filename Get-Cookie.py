@@ -58,7 +58,7 @@ ses = requests.Session()
 for O in data:
     time.sleep(1)
     n += 3
-    irfanx(f'''\033[38;5;196m[\033[38;5;45mSAMIR-AUTO-COOKIES\033[38;5;196m] \033[38;5;195m: \033[38;5;46m''' + O)
+    irfanx(f'''\033[38;5;196m[\033[38;5;45mKHAN-GET-COOKIES\033[38;5;196m] \033[38;5;195m: \033[38;5;46m''' + O)
     print()
     x = input('\x1b[1;91mENTER FOR COOKIE : \033[38;5;46m')
     print()
